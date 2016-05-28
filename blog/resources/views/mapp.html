@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8">
+<title>Document</title>
+<style>
+#map-canvas{
+	width:500px;
+	height:500px;
+
+}
+</style>
+</head>
+<body>
+<div id="map-canvas"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6KlCFUQlRwVJ-nyXxd6W0rfiIBel2Q"></script>
+<script>
+var map=new google.maps.Map(document.getElementById('map-canvus'),{
+	center:{
+		lat:27.7,
+		lng:85.3
+	};
+	zoom: 10
+
+});
+
+</script>
+</body>
+</html>
